@@ -22,7 +22,7 @@ const Contact = () => {
             <input type="text" placeholder="Your Name" />
             <input type="Email" placeholder="Your Email Address" />
             <textarea placeholder="Your Message" rows={10}></textarea>
-            <button className='bg-white text-blue-600 px-10 py-2 my-3 rounded-full hover:bg-blue-800 hover:text-white'>Send Message</button>
+            <button className='bg-white text-blue-600 px-10 py-2 my-3 rounded-full hover:bg-blue-400 hover:text-white'>Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (
@@ -32,7 +32,7 @@ const Contact = () => {
                   text-left gap-4 flex-wrap items-center"
               >
                 <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-blue-600 rounded-full">
-                  <ion-icon name={contact.logo}></ion-icon>
+                 {contact.logo}
                 </div>
                 <p className="md:text-base text-sm  break-words">
                   {contact.text}
