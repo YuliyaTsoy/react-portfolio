@@ -125,7 +125,6 @@ export default function Project() {
                   <div className="uppercase tracking-wide text-sm to-blue-500 font-semibold">
                     Foodie Finds
                   </div>
-                  </div>
                   <div className='flex mt-5 space-x-4 cursor-pointer'>
                   <a href="https://github.com/nicholascatalano/foodie-finds-app">Github Link</a>
                   <a href="https://restaurant-blog-3f12d3a2bc88.herokuapp.com/">Live Link</a>
@@ -133,11 +132,12 @@ export default function Project() {
                   <p className="mt-2 text-slate-500">
                   Foodie finds was created to help people who are looking for restaurants that cater to their specific dietary needs. This app has a minimalist design and a user-friendly interface with a clear navigational structure that makes it easy to use. The user will be able to add their own review for a restaurant they've visted which will be saved to their account dashboard, as well as see other reviews of restaurants based off their filters.
                   </p>
+                  
                 </div>
                 <div className="md:shrink-0 p-5">
                   <img
                     src={Project5Pic}
-                    alt="Project 6"
+                    alt="Project 5"
                     width={150}
                     height={150}
                   />
@@ -149,7 +149,7 @@ export default function Project() {
                 <div className="md:shrink-0 p-5">
                   <img
                     src={Project6Pic}
-                    alt="Project 1"
+                    alt="Project 6"
                     width={150}
                     height={150}
                   />
