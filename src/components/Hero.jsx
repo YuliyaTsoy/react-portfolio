@@ -18,9 +18,11 @@ const hero = () => {
                 <p className='text-slate-300'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 </p>
+                <a href="./src/assets/cv.pdf" download>
                 <button className='bg-white text-blue-600 px-10 py-2 my-3 rounded-full hover:bg-blue-800 hover:text-white'>
-                    Show more...
+                    Download CV
                 </button>
+                </a>
                 <div className='flex mt-5 space-x-4 cursor-pointer'>
                     <BsFacebook size={40} className='border-4 hover:border-blue-800 rounded-full'/>
                     <BsTwitter size={40} className='border-4 hover:border-blue-800 rounded-full'/>
