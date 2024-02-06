@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import Project from "./Project";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 const main = ()=> {
     return (
@@ -9,6 +10,7 @@ const main = ()=> {
             <Nav/>
             <Hero/>
             <Project/>
+            <Contact/>
             <Footer/>
         </div>
     )
