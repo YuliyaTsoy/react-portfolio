@@ -1,4 +1,5 @@
-import {BsFacebook, BsTwitter, BsInstagram, BsPinterest, BsPin} from 'react-icons/bs';
+import { FaL, FaMedium } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import HeroPic from '../assets/Headshot.jpg'
 
 const hero = () => {
@@ -20,14 +21,14 @@ const hero = () => {
                 </p>
                 <a href="./src/assets/cv.pdf" download>
                 <button className='bg-white text-blue-600 px-10 py-2 my-3 rounded-full hover:bg-blue-800 hover:text-white'>
-                    Download CV
+                    Download Resume
                 </button>
                 </a>
                 <div className='flex mt-5 space-x-4 cursor-pointer'>
-                    <BsFacebook size={40} className='border-4 hover:border-blue-800 rounded-full'/>
-                    <BsTwitter size={40} className='border-4 hover:border-blue-800 rounded-full'/>
-                    <BsInstagram size={40} className='border-4 hover:border-blue-800 rounded-full'/>
-                    <BsPinterest size={40} className='border-4 hover:border-blue-800 rounded-full'/>
+                    <a href="https://medium.com/@kan.yulya"><FaMedium size={40} className='border-4 hover:border-blue-800 rounded-full'/></a>
+                    <a href="https://github.com/YuliyaTsoy/"><FaGithub size={40} className='border-4 hover:border-blue-800 rounded-full'/></a>
+                    <a href="https://www.linkedin.com/in/yuliya-tsoy-fsdeveloper2024/"><FaLinkedin size={40} className='border-4 hover:border-blue-800 rounded-full'/></a>
+                 
                 </div>
             </div>
         </section>
