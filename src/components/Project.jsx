@@ -8,6 +8,7 @@ import Project6Pic from "../assets/proj6.jpg";
 export default function Project() {
   return (
     <>
+    <section id="projects">
       <div className="bg-blue-800 m-20 max-w-full">
         <div className="grid justify-items-center m-10">
           <h1 className="text-3xl text-white mt-10">Projects</h1>
@@ -131,8 +132,6 @@ export default function Project() {
                   </div>
                   <p className="mt-2 text-slate-500">
                   Foodie finds was created to help people who are looking for restaurants that cater to their specific dietary needs. This app has a minimalist design and a user-friendly interface with a clear navigational structure that makes it easy to use. The user will be able to add their own review for a restaurant they've visted which will be saved to their account dashboard, as well as see other reviews of restaurants based off their filters.
-
-
                   </p>
                 </div>
                 <div className="md:shrink-0 p-5">
@@ -171,7 +170,8 @@ export default function Project() {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+      </section>
     </>
-  );
+  )
 }
