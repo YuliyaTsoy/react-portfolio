@@ -19,9 +19,9 @@ const Contact = () => {
          gap-6 max-w-5xl bg-blue-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form className="flex flex-col flex-1 gap-5" >
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
+          <input type="text" placeholder="Your Name" className="input-field bg-gray-800 text-white placeholder-gray-400 border border-gray-600 p-2" />
+            <input type="Email" placeholder="Your Email Address" className="input-field bg-gray-800 text-white placeholder-gray-400 border border-gray-600 p-2" />
+            <textarea placeholder="Your Message" rows={10} className="input-field bg-gray-800 text-white placeholder-gray-400 border border-gray-600 p-2" ></textarea>
             <button className='bg-white text-blue-600 px-10 py-2 my-3 rounded-full hover:bg-blue-400 hover:text-white'>Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
