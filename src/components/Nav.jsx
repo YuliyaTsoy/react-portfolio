@@ -22,9 +22,9 @@ function closeMenu(){
             </div>
             <div className="space-x-4">
                 <div className = 'ssm:hidden lg:block space-x-2'>
-                    <a href="./Hero" className="text-white hover:bg-blue-800 rounded-full px-5 py-2 text-xl">About</a>
+                    <a href="#about" className="text-white hover:bg-blue-800 rounded-full px-5 py-2 text-xl">About</a>
                     <a href="#projects" className="text-white hover:bg-blue-800 rounded-full px-5 py-2 text-xl">Portfolio</a>
-                    <a href="./Contact" className="text-white hover:bg-blue-800 rounded-full px-5 py-2 text-xl">Contact</a>
+                    <a href="#contact" className="text-white hover:bg-blue-800 rounded-full px-5 py-2 text-xl">Contact</a>
                     <a href="https://drive.google.com/file/d/1u_DWS9nnwfqQ8lMBTZvBLuG4jxlQuqWG/view?usp=sharing" className="text-white hover:bg-blue-800 rounded-full px-5 py-2 text-xl">Resume</a>
                 </div>
                 <div className='ssm:block lg:hidden'>
